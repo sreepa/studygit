@@ -1,0 +1,28 @@
+git reset 5e232907a16168a5969ff6ad5a49fadbad47b66 --hard:
+ 
+this command is used inorder to revert to the commit 5e232907a16168a5969ff6ad5a49fadbad47b66.
+
+after resetting push it from local buy using the command:
+
+git push origin gitlesson1 --force.
+
+
+------------------------------------------------------------------------------------------------
+
+git reset 5e232907a16168a5969ff6ad5a49fadbad47b66 --soft
+
+this command is used inorder to make changes in the commit 5e232907a16168a5969ff6ad5a49fadbad47b66.
+
+this commit can be anywhere. its not necessary that it should be the last one.
+
+after this command add and commit the new changes. So that all the above coomits will be converted to single one. 
+
+for pushing use --force
+
+------------------------------------------------------------------------------------------------------------ 
+
+git cherry-pick branch_name
+
+to move the commits from one branch to another.
+
+
